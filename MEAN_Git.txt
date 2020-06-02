@@ -22,6 +22,8 @@ Branches are simply pointers to a specific commit -- nothing more. "branch early
 
 git checkout <name> ----- This command tells git we want to checkout/point to a specific branch; put us on the new branch before committing our changes
 
+E.G git branch branch_name
+
 Level 2:
 
 $git checkout -b bugFix
