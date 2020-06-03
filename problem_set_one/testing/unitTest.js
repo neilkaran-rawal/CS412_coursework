@@ -17,6 +17,38 @@ const evaluate = (str) => {
     }
 }
 
+const string = 'supercalifragilisticexpialidocious';
+
+const fun1 = (string, lambda1 = string => {
+    let arr = string.split('c');
+    for (let i = 0; i< arr.length; i++){
+        if (i!== 0){
+            arr[i] = 'c' + arr[i]
+        }
+    }
+    return arr
+})
+
+const fun2 = (string, lambda2 = string => {
+    let orgStr = string;
+    let length = string.length;
+    let numReplaced = 0;
+    let modStr = string.replace(/a/g, 'A');
+
+    for(let i = 0; i < string.length; i++) {
+        if(string[i] == 'a'){
+            numReplaced++;
+        }
+    }
+    var obj = {
+        originalString: orgStr,
+        modifiedString: modStr,
+        numberReplaced: numReplaced,
+        length: length,
+    }
+    return obj
+})
+
 // Problem 1 Unit Test
 describe('alphabetical order string test' , () => {
     //Setup individual unit tests
@@ -59,3 +91,18 @@ describe('math operations test' , () => {
 })
 
 // Problem 3 Unit Test
+describe('string test' , () => {
+    //Setup individual unit tests
+    it('should return [super, califragilisti, cexpialido, cious] when input is supercalifragilisticexpialidocious', function() {
+        let res = fun1(string)
+        expect(res).to.be.equal('"super" "califragilisti" "cexpialido" "cious"');
+    });
+    it('should return 3 when checking number of a replaced for input of supercalifragilisticexpialidocious', function() {
+        let res = fun2(string)
+        expect(res).to.be.equal('3');
+    });
+    it('should return string when testing for string, input of supercalifragilisticexpialidocious', function() {
+        let res = fun2(string)
+        expect(res).to.be.equal('string');
+    });
+})
