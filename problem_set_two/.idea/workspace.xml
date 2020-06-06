@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ea3604b-a2aa-4745-b409-39ac45f2abb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/P3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P1.js" beforeDir="false" afterPath="$PROJECT_DIR$/P1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P2.js" beforeDir="false" afterPath="$PROJECT_DIR$/P2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +56,19 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Node.js.P2.js">
+  <component name="RunManager" selected="Node.js.P3.js">
     <configuration name="P1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/P1.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="P2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/P2.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="P3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/P3.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.P3.js" />
         <item itemvalue="Node.js.P2.js" />
         <item itemvalue="Node.js.P1.js" />
       </list>
@@ -85,7 +88,7 @@
       <workItem from="1591373119756" duration="2288000" />
       <workItem from="1591381906878" duration="82000" />
       <workItem from="1591382033964" duration="1009000" />
-      <workItem from="1591398860764" duration="1486000" />
+      <workItem from="1591398860764" duration="1882000" />
     </task>
     <servers />
   </component>
@@ -108,30 +111,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="232" key="GridCell.Tab.0.bottom" timestamp="1591403709104">
+    <state width="1419" height="232" key="GridCell.Tab.0.bottom" timestamp="1591404181658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="232" key="GridCell.Tab.0.bottom/-1024.0.1024.768/-687.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1591382477434" />
     <state width="1419" height="232" key="GridCell.Tab.0.bottom/-1024.23.1024.745/-687.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1591381900597" />
-    <state width="1419" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591403709104" />
-    <state width="1419" height="232" key="GridCell.Tab.0.center" timestamp="1591403709103">
+    <state width="1419" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591404181658" />
+    <state width="1419" height="232" key="GridCell.Tab.0.center" timestamp="1591404181657">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="232" key="GridCell.Tab.0.center/-1024.0.1024.768/-687.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1591382477431" />
     <state width="1419" height="232" key="GridCell.Tab.0.center/-1024.23.1024.745/-687.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1591381900593" />
-    <state width="1419" height="232" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591403709103" />
-    <state width="1419" height="232" key="GridCell.Tab.0.left" timestamp="1591403709102">
+    <state width="1419" height="232" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591404181657" />
+    <state width="1419" height="232" key="GridCell.Tab.0.left" timestamp="1591404181656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="232" key="GridCell.Tab.0.left/-1024.0.1024.768/-687.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1591382477430" />
     <state width="1419" height="232" key="GridCell.Tab.0.left/-1024.23.1024.745/-687.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1591381900592" />
-    <state width="1419" height="232" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591403709102" />
-    <state width="1419" height="232" key="GridCell.Tab.0.right" timestamp="1591403709103">
+    <state width="1419" height="232" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591404181656" />
+    <state width="1419" height="232" key="GridCell.Tab.0.right" timestamp="1591404181657">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1419" height="232" key="GridCell.Tab.0.right/-1024.0.1024.768/-687.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1591382477432" />
     <state width="1419" height="232" key="GridCell.Tab.0.right/-1024.23.1024.745/-687.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1591381900595" />
-    <state width="1419" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591403709103" />
+    <state width="1419" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591404181657" />
     <state width="1419" height="304" key="GridCell.Tab.1.bottom" timestamp="1591381987797">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
