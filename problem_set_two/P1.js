@@ -11,13 +11,17 @@ function* fibGen() {
         [a, b] = [b, a + b]
     }
 }
+
 /*
+Testing
+
 var fib = fibGen();
 
 for (let i = 0; i < 5; i++) {
     console.log(fib.next().value);
 }
 */
+
 // fibEvenGen output: 0, 2, 8, 34, 144, 610, 2584, 10946
 
 function* fibEvenGen(){
@@ -29,11 +33,19 @@ function* fibEvenGen(){
         }
     }
 }
+
 /*
-var fibEven = fibEvenGen();
+Testing
+
+const fibEven = fibEvenGen();
+console.log(fibEven)
 
 for (let i = 0; i < 10; i++) {
     console.log(fibEven.next().value);
 }
+
+const fibEven = fibEvenGen();
+console.log(fibEven.next().value);
+console.log(fibEven.next());
 */
 
